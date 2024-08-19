@@ -119,34 +119,37 @@
   top: 6px;
   right: 0;
 }
-
+.language {
+   /* visibility: hidden; */
+}
 .language li {
   transform: translateY(-10px);
   opacity: 0;
   visibility: hidden;
-  transition: all 0.2s;
+  /* js로 기능 추가 */
+  /* transition: all 0.2s; */ 
 }
-.language-box-active .language li {
+.language-box-active .language li{
   transform: translateY(0px);
   opacity: 1;
   visibility: visible;
 }
-.language li a {
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: -0.83px;
-  color: #333;
-  padding: 5px 0;
+.language li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.83px;
+    color: #333;
+    padding: 5px 0;
 }
 .bt-menu {
-  display: inline-block;
-  width: 37px;
-  height: 12px;
-  margin-left: 50px;
-  font-size: 0;
-  background: url(../images/toggle_navi.png) no-repeat;
-  background-size: cover;
-  border: none;
-  cursor: pointer;
-}
+    display: inline-block;
+    width: 37px;
+    height: 12px;
+    margin-left: 50px;
+    font-size: 0;
+    background: url(../images/toggle_navi.png) no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }

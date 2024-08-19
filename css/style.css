@@ -1,10 +1,10 @@
 @charset "utf-8";
-@import url("font.css");
+@import url("fonst.css");
 @import url("header.css");
 @import url("visual.css");
 @import url("news.css");
 @import url("business.css");
-@import url("mcenter.css");
+@import url("mecenter.css");
 @import url("footer.css");
 * {
   margin: 0;
@@ -12,6 +12,7 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 a {
   color: #191919;
   text-decoration: none;
@@ -31,6 +32,9 @@ body {
   color: #191919;
   word-break: keep-all;
   /* min-width: 780px; */
+  /* background-color: blueviolet; */
+  height: 1000px;
+
 }
 /* 안내창 */
 /* 공통영역 */
@@ -44,5 +48,5 @@ body {
     min-width: 640px;
     padding: 0 90px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    /* background-color: bisque; */
 }
