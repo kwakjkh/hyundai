@@ -3,9 +3,10 @@
 @import url("header.css");
 @import url("visual.css");
 @import url("news.css");
-@import url("business.css");
+@import url("besiness.css");
 @import url("mecenter.css");
 @import url("footer.css");
+@import url("resposive.css");
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,15 @@ img {
 html {
   font-size: 16px;
 }
+::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+  background-color: rgb(234, 16, 165);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(68, 228, 23);
+}
 body {
   font-family: Pretendard, "Nanum Myeongjo", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
   font-size: 14px;
@@ -31,10 +41,8 @@ body {
   letter-spacing: -0.64px;
   color: #191919;
   word-break: keep-all;
-  /* min-width: 780px; */
-  /* background-color: blueviolet; */
-  height: 1000px;
-
+  min-width: 780px;
+  
 }
 /* 안내창 */
 /* 공통영역 */
@@ -45,7 +53,7 @@ body {
     position: relative;
     max-width: 1800px;
     width: 100%;
-    min-width: 640px;
+    min-width: 600px;
     padding: 0 90px;
     margin: 0 auto;
     /* background-color: bisque; */
